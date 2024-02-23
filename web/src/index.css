@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .text-link {
+   @apply text-sm underline text-brand-dark font-normal;
+   line-height: 21px;
+  }
+  .text-button {
+    @apply font-bold text-text;
+    font-size: 10px;
+    line-height: 1;
+  }
+  .text-placeholder{
+   @apply text-xs font-medium italic text-text-light;
+   line-height: 18px;
+  }
+  .text-secondary {
+   @apply text-xs text-text-light;
+   line-height: 18px;
+  }
+  .text-body {
+   @apply text-sm text-text-dark font-normal;
+   line-height: 21px;
+  }
+  .text-body-large {
+   @apply text-sm font-bold text-text-dark;
+   line-height: 21px;
+  }
+  .text-quote {
+   @apply text-xl font-medium italic text-text-dark;
+   line-height: 20px;
+  }
+  .text-subheader{
+   @apply text-xl text-text-dark;
+   line-height: 30px;
+  }
+  .text-title{
+   @apply text-3xl font-bold text-text-dark;
+   line-height: 46px;
+  }
+  .text-headline{
+   @apply font-bold text-text-dark;
+   line-height: 60px;
+   font-size: 40px;
+  }
+}
